@@ -40,7 +40,7 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
-         <distributionManagement>
+    <distributionManagement>
    <repository>
       <id>nexus-site</id>
         <url>http://13.232.24.10:8081</url>
