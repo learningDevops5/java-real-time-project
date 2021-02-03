@@ -42,9 +42,14 @@
   </dependencies>
     <distributionManagement>
    <repository>
-      <id>nexus-site</id>
-        <url>http://13.232.24.10:8081</url>
+      <id>nexus</id>
+        <url>http://13.232.24.10:8081/repository/Valaxy-App-Repo/</url>
    </repository>
+             <snapshotRepository>
+             <id>nexus</id>
+             <name>nexus Snapshot Repository</name>
+             <url>http://13.232.24.10:8081/repository/Valaxy-App-Repo-Snapshot/</url>
+             </snapshotRepository>
 </distributionManagement>
 
 </project>
